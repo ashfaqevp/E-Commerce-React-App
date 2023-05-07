@@ -1,0 +1,1171 @@
+
+*{
+  margin-top: 0px;
+  padding: 0; 
+}
+
+
+.heading{
+  padding: 13px 0;
+  width:100%;
+  background-color: purple;
+  position: absolute;
+  top: 0;
+  left:0;
+  color: aliceblue;
+  text-align: center;
+  display: flex;
+}
+
+.heading h1{
+  width:90%;
+}
+
+
+.heading button{
+  background-color:#fafafa;
+  height :30px;
+}
+
+
+
+
+.main{
+  width:100%;
+  height: 100vh;
+  background-image: url('./Images/bg_login.jpg');
+  align-items: center;
+  padding-top:100px;
+}
+
+.container{
+  margin: 0 auto;
+  width: 750px;
+  display: flex;
+  border-radius: 8px;
+  background-color: #fafafa;
+}
+
+.left{
+  width:450px;
+  background-image: url('./Images/login.jpg');
+  border-radius: 8px;
+  margin-top: 40px;
+}
+
+.signupLeft{
+  margin-top: 60px;
+}
+
+.right{
+  margin :15px;
+  width:300px;
+  display: flex;
+  flex-direction: column;
+  height:100%;
+  text-align: left;
+  padding: 20px;
+  /* box-shadow: 2px 0px  8px 4px  lightgray ;  */
+} 
+
+.right .top{
+  height: 80px;
+  line-height:1rem;
+}
+
+.right .top p{
+  font-size: 15px;
+  color : gray;
+}
+
+.right .mid{ 
+  height: 230px;
+}
+
+.right .signupMid{ 
+  height: 300px;
+}
+
+.right .mid label{
+  margin-bottom: 5px;
+  font-size: .9em;
+  font-weight: 600;
+}
+
+.right .mid input{
+  padding :10px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  border: 2px solid gray;
+
+}
+
+.right .mid button{
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #512586;
+  color: #fafafa;
+  border-color: #512586; 
+}
+
+
+
+.right .bot{
+  
+  height: 20%;
+}
+
+.right form{
+  display:flex;
+  flex-direction: column;
+}
+
+.right .bot .or{
+  font-size: small;
+  color: gray;
+  text-align: center;
+}
+
+.right .bot {
+  display:flex;
+  flex-direction: column;
+}
+
+.right .bot button{
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #fafafa;
+  color: tomato;
+  border: tomato 2px solid; 
+  font-weight: 700;
+}
+
+
+
+
+
+body{
+  align-items: center;
+  background-color: rgba(247, 241, 253, 0.749);
+}
+
+.content{
+  padding-top: 90px;
+  display: flex; 
+}
+
+
+.productsPage {
+  display: flex;
+  font-family : 'Trebuchet MS';
+  width:100%;
+}
+
+.productsPage h5, .productsPage h4 {
+  margin: 0;
+  padding: 0;
+  margin-left: 20px;
+}
+
+.productsPage .filter{
+  width: 250px;
+
+  margin-top:0px;
+  border-right: 1px gray solid;
+  text-align: left;  
+}
+
+.productsPage .filter p, .filter h3, .filter h4 , .filter h5, .filter input{
+  margin-left: 40px;
+}
+
+.productsPage .filter label{
+  line-height: 1.5rem;
+  margin-left: 7px;
+  color: rgb(87, 63, 63);
+}
+
+.productsPage .filter input{
+  width: 15px;
+  height: 15px;
+}
+
+.products  h2{
+  color:#512586;
+  margin: 20px;
+  
+}
+.products h2 a{
+  text-decoration: none;
+  color: rgb(185, 112, 185);
+}
+
+.productsPage .products{
+  margin: 0 auto;
+  align-items: center;
+  width:70%;
+}
+
+
+
+
+
+
+
+.products .card{
+  width:220px;
+  height: auto;
+  background-color: #fafafa;
+  display: inline-block;
+  padding : 6px;
+  margin:20px;
+  border-radius: 12px;
+  position: relative;
+  box-shadow: 5px 10px 8px  lightgray ;
+  border: .01px solid lightgray;
+  align-items: center;   
+}
+
+.products .card .image{
+  margin: 0 auto;
+  width: 100%;
+  height:190px;
+  border: .01px solid lightgray;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.products .card button{
+  padding:8px 10px;
+  width:90%;
+  margin: 5px 5%;
+  background-color: purple;
+  font-weight: bold;
+  border: 0;
+  border-radius: 8px;
+  color: #fafafa;
+}
+
+.products .card p{
+  width:90%;
+  margin: 8px 5%;
+  text-align: center;
+  letter-spacing: .5px;
+  font-weight: 300;
+}
+
+.products .card a{
+  text-decoration: none;
+  color: #282c34;
+}
+
+
+
+
+
+
+
+/* PRODUCT PAGE DESIGN  */
+
+.pFull{
+  padding-top: 30px;
+}
+
+
+.pLeft{
+  width:50%; 
+  display: inline;
+  position: relative;   
+  padding:10x;
+  align-items: center;
+  display: flex;
+}
+
+
+
+
+.pImg{
+  width: auto;
+  max-width: 90%;
+  height: 90%; 
+  margin :0 auto;
+  padding: 20px;
+  border: 0;
+  justify-content: center;
+  
+}
+
+
+.pRight{
+  
+  width:50%;
+  height:100%;
+  display: inline;
+  border-radius: 0 16px 16px 0;
+  color: rgb(43, 41, 41);  
+  padding: 10px;
+  padding-top: 40px;
+  text-align: left;
+}
+
+
+.pRight h1, .pRight  h2, .pRight  h3, .pRight h4{
+  margin: 0;
+}
+
+.pTop{
+  margin-top: 30px;
+}
+
+      .dRate{
+          text-align: left;
+          width:200px;
+          padding: 10px 5px 10px 5px;
+          margin: 0;
+          border: 2px solid black;
+          display: flex;
+      }
+
+      .dRate .a {
+          padding-right: 10px;
+          border-right: 2px solid black;
+          display: flex;
+      }
+
+      .dRate i{
+          color: gold;
+          padding: 1px;
+      }
+
+
+
+.pMid{
+  
+}
+
+      .pDes{
+          color:rgb(89, 84, 84);
+          font-size: smaller;
+          line-height: 1.25rem;
+          
+      }
+
+      .dQ{
+          width: 120px;
+          margin: 0;
+          padding: 10px;
+          padding-left: 0;
+          display: flex; 
+          
+      }
+
+      .dQ button{
+          background-color: rgb(224, 198, 248);
+          border: 1px solid black;
+          width:50px;
+          font-size: 24px;
+          border-radius: 12px;
+          text-align: center;
+          
+      }
+
+      .dQ h3{
+          padding : 5px 10px;
+      
+      }
+
+
+
+.pBot{
+  margin-top: 20px;
+}
+
+      .pBot button{
+        width:150px;
+        padding:10px;
+        border: 0;
+        border-radius: 8px;
+        margin-right: 10px;
+        font-weight: bolder;
+        font-size: 14px;
+      }
+
+      .pBot .b1{
+        background-color: #fafafa;
+        border: 2px purple solid;
+        color: purple;
+      }
+
+      .pBot .b2{
+        background-color: purple;
+        border: 2px purple solid;
+        color: #fafafa;
+      }
+
+
+
+
+
+
+
+
+
+/* ADMIN HOME */
+
+.adminContent{
+  font-family:'Trebuchet MS';
+  display: flex;
+  background-color: rgb(252, 239, 252);
+}
+
+.ahLeft{
+  width:15%;
+  height: 100vh;
+  
+}
+
+.ahRight{
+  width:85%;
+}
+
+.ahRight .ahTop{
+  height :70px;
+  display: flex;
+  margin: 20px;
+  margin-left: 50px;
+}
+
+.ahtLeft{
+  width:85%;
+}
+.ahtLeft input{
+  margin: 20px 0px;
+  padding: 8px 10px;
+  border-radius: 8px 0px 0 8px;
+  border: lightgray 1px solid;
+}
+
+.ahtLeft button{
+  margin: 20px 0px;
+  padding: 8px 15px;
+  border-radius: 0 8px 8px 0;
+  border: lightgray 1px solid;
+  background-color: rgb(174, 36, 174);
+  color: #fafafa;
+}
+
+.ahtRight{
+  
+  background-color: #6c09e6;
+  line-height: px;
+  display: flex;
+  background-color: #fafafa;
+  border-radius: 8px;
+  padding: 10px;
+  white-space: inherit;
+}
+
+.ahtRight img{
+  margin-right: 10px;
+  border-radius: 10px;
+}
+
+.ahtRight p.a{
+  font-size: 14px;
+}
+.ahtRight p.b{
+  font-size: 12px;
+  color: gray;
+}
+
+
+
+
+
+
+
+.ahRight .ahBot{
+ 
+  align-items: center;
+}
+
+
+
+
+
+/* NAVIGATION BAR DESIGN */
+
+
+.navbar{
+  height: 100vh;
+  padding :10px;
+  font-family:'Trebuchet MS';
+  background-color: #fafafa;
+}
+
+.navbar img{
+ margin: 20px 30px;
+ color: #6c09e6;
+}
+
+.navbar li {
+  width:150px;
+  color:rgb(87, 86, 86);
+  padding: 10px 10px;
+  margin:4px;
+  margin-bottom : 10px;
+  border-radius: 8px;
+  font-size: 14px;
+
+}
+
+.navbar a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.navbar li:hover {
+  background-color: rgb(201, 103, 201);
+}
+
+.active li{
+  background-color: purple;
+  color : #fafafa
+}
+
+
+
+
+
+
+
+      
+/* ADD NEW PRODUCT PAGE */
+
+.npMain{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin:20px 40px;
+}
+
+.npContainer{
+  margin:20px ;
+  padding :10px 30px;
+ 
+  background-color: #fafafa;
+  border-radius: 8px;
+}
+
+.npTop{
+  padding:15px;
+  line-height:8px;
+}
+
+.npMid{
+  display : flex;
+  padding :10px;
+  line-height : 8px;
+}
+
+.npMid p , .npMid label{
+  font-size :14px
+}
+
+.npMid .npLeft{
+  width:50%;
+  height:100%;
+  border-right : 1px lightgray solid;  
+  padding: 0px 20px;
+}
+
+
+
+.npMid .npLeft .addImage {
+  background-color :rgb(246, 225, 246);
+  height:200px;
+  width:300px;
+  border : 2px purple dashed;
+  border-radius : 8px;
+  margin: 30px 0;
+}
+
+
+.npMid .npRight{
+  width:50%;
+  padding-left :80px;
+  display :flex;
+  flex-direction :column;
+  
+}
+
+.npMid label{
+ line-height : 2rem; 
+}
+
+.npRight input, .npRight textarea ,.npRight select {
+  padding:5px 10px;
+}
+
+.npRight  .desc{
+  height:100px;
+
+
+}
+
+
+
+.npBot{
+  padding:10px;
+  align-items :right;
+  text-align : right;
+}
+
+.npBot button{
+  font-family : 'Trebuchet MS';
+  padding :10px;
+  background-color:purple;
+  border :0px;
+  color : #fafafa;
+  border-radius :8px;
+}
+
+
+
+
+
+/* ALL PRODUCT PAGE DESIGN */
+
+.apTable thead tr{
+  background-color: purple;
+}
+
+.apTable th {
+  
+  padding :10px;
+  color: #fafafa;
+}
+
+.apTable .tdPN{
+  display : flex;
+}
+
+.apTable .tdPN img{
+  margin-right:10px;
+}
+
+.apTable tr{
+  
+  border-bottom: 1px rgb(211, 200, 200) solid;
+}
+
+.apTable td{
+  padding :10px;
+}
+
+
+.npContainer table{
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.apTable tr button{
+  font-size: 10px;
+  padding :5px 10px;
+  border-radius: 8px;
+  border :0
+}
+
+.apTable tr .editBtn{
+  background-color: lightblue;
+}
+
+.apTable tr .dltBtn{
+  background-color: lightcoral;
+}
+
+
+
+
+/* DASHBOARD DESIGN */
+.dContent {
+  margin : 20px;
+  padding: 0px 20px;
+  box-sizing: border-box;
+}
+
+.dContent p{
+  margin: 0px;
+}  
+
+
+.dContent .dTop {
+  
+}
+
+.dTop .boxes{
+  display : flex;
+}
+
+.dTop .boxes .box {
+  width :300px;
+  height : 80px;
+  margin-right: 40px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+
+}
+
+.boxes .box1{
+  background-image: linear-gradient(to right, #eb4986 , #ba54a4);
+}
+.boxes .box2{
+  background-image: linear-gradient(to right, #865fc0 , #5749b8);
+}
+.boxes .box3{
+  background-image: linear-gradient(to right, #48c4f3 , #6393d9);
+}
+.boxes .box4{
+  background-image: linear-gradient(to right, #ffb82c , #f68257);
+}
+
+.dMid{
+  margin-top: 40px;
+}
+
+.box .bLeft {
+ width : 60%;
+ margin-top: 10px;
+ padding: 10px;
+ height :30px;
+ text-align: center;
+ color: #fafafa;
+ 
+}
+
+
+.box .bRight {
+  font-size: 30px;
+  color: #fafafa;
+  position: relative;
+  padding: 10px;
+  margin-top:15px;
+  
+}
+
+.box p.a {
+  font-size: 11px;
+  margin-bottom: 10px;
+}
+
+.box p.b {
+  font-size: 20px;
+  
+}
+
+
+.dMid{
+  display: flex;
+  
+  
+ 
+  
+
+}
+
+.dLeft {
+  width : 60%;
+
+  margin-right:20px;
+  border-radius: 8px;
+  background-color: #fafafa; 
+  
+ 
+}
+
+.dRight {
+  width : 40%;
+  margin-right:25px;
+  border-radius: 12px;
+  background-color: #fafafa; 
+  align-items: center;
+  border : 2px rgba(251, 238, 251, 0.952) solid;
+  
+  
+  
+}
+
+.dRight .box{
+  width:60%;
+  align-items: center;
+  margin:5% 20%;
+}
+
+.dRight h3 , .dLeft h3{
+  margin: 20px;
+  color: gray;
+}
+
+.dRight .legends{
+  display: flex;
+  margin-bottom: 5px;
+}
+
+.dRight .legends i{
+ display: flex;
+ margin: 0 auto ;
+
+}
+
+.dRight .legends i pre{
+  color: #282c34;
+ }
+
+
+
+
+
+.dLeft .box{
+  width:90%;
+  align-items: center;
+  margin:0% 5%
+}
+
+
+
+
+/* CART PAGE DESIGN */
+
+*{
+  box-sizing: border-box;
+}
+
+.cFull{
+  width :100%;
+  margin: 0px 70px;
+  text-align: left;
+  align-items: center;
+}
+
+.cFull  h2{
+  color:#512586
+}
+.cFull a{
+  text-decoration: none;
+  color: rgb(185, 112, 185);
+}
+
+.cContent{
+  font-family : 'Trebuchet MS';
+  margin: 0 auto;
+  width :70%;
+  height:500px;
+  border-radius: 16px;
+  margin-top: 20px;
+  display: flex;
+  background-color: #fafafa;
+  box-shadow: 5px 10px 8px  lightgray ;  
+}
+
+.cContent p , .cContent header {
+  margin: 0;
+}
+
+.cContent .cLeft{
+  width:70%;
+  display: inline;
+  position: relative;
+  overflow: auto;
+}
+
+.cTable th {
+  padding:30px 0 30px 0;
+  color: gray;  
+}
+
+.cTable tr{
+  border-bottom: 1px rgb(211, 200, 200) solid;
+}
+
+
+
+.cTable{
+  position: absolute;
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.cTable .cTableName{
+  display: flex;
+  padding: 10px 10px 10px 0;
+}
+
+.cTable .cTableName img{
+ margin-right: 20px;
+}
+
+.cTable .cTableName p{
+  margin-top: 10px;
+ }
+
+
+.cTable .cTableId{
+  padding-left: 20px;
+}
+
+
+.cTable tr button{
+  font-size: 16px;
+  padding :5px 10px;
+  border-radius: 8px;
+  border :0;
+  background-color: #fafafa;
+  color: red;
+}
+
+
+
+
+.cContent .cRight{
+  background-color: rgba(208, 165, 248, 0.874);
+  width:30%;
+  height:100%;
+  display: inline;
+  border-radius: 0 16px 16px 0;
+  color: rgb(43, 41, 41);  
+  text-align: left; 
+  padding: 10px;
+}
+
+
+.cTop h3{
+  padding-left: 10px;
+  padding:14px 0 14px 10px; 
+}
+
+.cTop{
+  height:20%;
+}
+
+.cMid{
+  height:50%;
+  padding: 10px;
+}
+
+
+.cBot{
+  padding-left: 10px;
+}
+
+.cBot .a{
+ line-height: 2rem;
+}
+
+
+.cBot .a h2{
+ margin-left: 0px;
+ }
+
+.cBot .b button{
+  width :100%;
+  background-color: purple;
+  border: 0;
+  padding: 10px;
+  border-radius: 8px;
+  color: #fafafa;
+}
+
+.cBot .b button:active{
+  background-color: rgb(244, 35, 244);
+}
+
+
+
+/* PROFILE PAGE */
+
+.profileContent {
+  width:450px;
+  margin: 0 auto;
+  flex-direction: column;
+  text-align: center;
+}
+
+.profileLogo{
+  font-size: 140px;
+  padding: 40px;
+  color: purple;
+}
+
+.profileTop{
+  height:80%;
+}
+
+.profileContent button {
+
+  margin:0 30%;
+  padding :8px 5px;
+  background-color: #eb4949;
+  color: #fafafa;
+  border: 0;
+  border-radius: 10px;
+  font-weight: 600;
+}
+
+
+
+
+/* NAVIGATION HEADER */
+
+.nav{
+  width:100%;
+  display: flex;
+  background-color:purple;
+  margin:0;
+  height: 80px;
+  box-shadow: 1px 2px 8px  lightgray ;
+  position: fixed;
+  z-index: 10; 
+}
+
+.nav .logo{
+  color: rgb(45, 7, 80);
+  font-size: 25px;
+  height: auto;
+  position: absolute;
+  float:left;
+  font-weight: bolder;
+  top: 15px;
+  left:30px;
+  color: #fafafa;
+  display: flex;
+}
+
+.logo img{
+  margin-top: 0;
+  border: 0;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.nBar{
+  width:350px;
+  margin-top:20px;
+  margin-left: 500px; 
+  display: flex;
+}
+
+.nBar button{
+  font-weight: bolder;
+  background-color: rgba(155, 72, 155, 0.297);
+  color:#fafafa;
+  border:2px white solid;
+  border-radius: 24px;
+  width:90px;
+  height:40px;
+  padding:   10px 0 10px 0;
+  margin-right: 20px;
+}
+
+
+
+.nBar a.active button{
+  background-color: #fafafa;
+  color: purple;
+}
+
+
+.leftNav{
+  position: absolute;
+  top:20px;
+  right:30px;
+  display: flex;    
+}
+
+
+.leftNav .search{
+  margin:auto;
+  max-width:300px;
+  display: flex;
+  height: 35px;
+  padding-right: 40px;  
+}
+
+
+
+
+.leftNav .search input {
+  padding: 5px;
+  padding-left: 20px;
+  font-size: 14px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #fafafa;
+  border-radius: 16px 0px 0px 16px;  
+}
+
+ 
+.leftNav .search button {  
+  width: 20%;
+  padding: px;
+  background: #fafafa;
+  color: blueviolet;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+  border-radius:  0px 16px 16px 0px;
+}
+
+
+.ct{
+  margin: 0;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.cc{
+  margin: 0;
+  margin-top: 5px;
+  background-color: red;
+  padding: 2px 10px 4px 10px;
+  border-radius: 18px;
+  color: #fafafa;   
+}
+
+
+.leftNav button {  
+  background-color: purple;
+  color: #fafafa;
+  font-size: 28px;
+  border: 0;
+  cursor: pointer; 
+  margin-right: 4px;
+}
+
+
+.profile{
+  margin-left: 26px;
+  width:50px;
+  height:20px;
+  background-color: purple;
+  color: #fafafa;
+  font-size: 28px;
+}
+
+
+
+.nav a{
+   text-decoration: none;
+   color: #fafafa;
+   display: flex;   
+}
+
+
+
+button:active{
+  background-color:rgba(201, 37, 201, 0.87);
+}
+
